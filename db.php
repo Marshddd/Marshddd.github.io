@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Python</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>   
+        header { /*พื้นหลังยิดดีตอนรับ*/
+            background-image: url('Python-programming-for-hackers-compressed.jpg');
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            background-image: url('');
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            width: 100%;
+        }
+            body {
+                  background-image: url('Python-programming-for-hackers-compressed.jpg');
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                  height: 100vh;
+                  width: 100%;
+                  margin: 0;
+                  padding: 0
+            }   
+            nav{
+                background:none!important ;
+                color: white!important;
+
+            }
+            .button {
+              
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            margin: 0 auto;
+            display: block;
+        }
+        .cool-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 13px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border: 2px solid #292929;
+            color: #292929;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+          }
+
+
+          .cool-button:hover {
+            background-color: #292929;
+            color: #fff;
+          }
+          #img2 { /*สีขาวหน้าหลัก*/
+            margin-right:  0px;
+            margin-bottom: 0px;
+        }
+
+
+        </style>
+</head>
+<header>
+  
+    <h1>ยินดีต้อนรับสู่เว็บไซต์ของเรา</h1>
+
+</header>
+  <body class=" ">
+
+    <nav class="  nav navbar navbar-expand-lg text-light">
+      <div class="container-fluid">
+        <a class="navbar-brand text-dark  bg-body-tertiary" href="#" ></a>
+        
+        
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        </button>
+        <div class="">
+          <div class="navbar-nav">
+          <a  id="a4"class="navbar-brand text-light" href="index.php">
+      <img id="img2" src="bootstrap-logo.svg " alt="Logo" width="30" height="24" class="d-inline-block align-text-top  " > AOI</a>
+          <a class="nav-link active  bg-body-tertiary text-dark" aria-current="page" href="index.php" >หน้าหลัก</a>
+          <a class="nav-link active  bg-body-tertiary text-dark" aria-current="page" href="db.php" >เนื้อหาบทเรียน</a>
+          <a class="nav-link active  bg-body-tertiary text-dark" aria-current="page" href="pic.php">ข้อมูลทั่วไป</a>
+            <a class="nav-link text-light bg-body-tertiary text-dark" href="paisan.php">คณะที่ปรึกษา</a>
+            <a class="nav-link text-light bg-body-tertiary text-dark" href="name.php">คณะผู้จัดทำ</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  <nav class="navbar ">
+  <div class="container-fluid">
+  
+     
+</div>
+
+</nav>
+    
+
+
+    <div style="text-align: center;">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br>
+    
+    <h1>-บทเรียนที่หน้าสนใจ-</h1>
+    <h4>บทที่1</h4>
+      
+    <a href="python.php" class="cool-button" style="height: 50px; width: 50%; font-weight: bold;" >-Python คืออะไร-</a>
+    <br><br>
+    <h4>บทที่2</h4>
+      <a href="class.php" class="cool-button" style="height: 50px; width: 50%; font-weight: bold;">(Classes & Objects)คือ อะไร-</a>
+      <br><br>
+    <h4>บทที่3</h4>
+      <a href="lf.php" class="cool-button" style="height: 50px; width: 50%; font-weight: bold;">-IF else elif ใช้ยังไง-</a>
+      <br><br>
+      <h4>บทที่4</h4>
+      <a href="while loop.php" class="cool-button" style="height: 50px; width: 50%; font-weight: bold;">-สอนใช้ while loop-</a>
+    </div>
+
+  </body>
+</html>
